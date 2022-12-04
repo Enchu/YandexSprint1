@@ -14,14 +14,6 @@
   max-height: 756px;
 }
 
-.typography{
-  font-family: "Helvetica Neue", sans-serif;
-  font-style: normal;
-  color: #1f1f1f;
-  text-decoration: none;
-  margin: 0;
-}
-
 .header__logo{
   margin-top: 30px;
   margin-left: 64px;
@@ -30,9 +22,10 @@
 }
 
 .header__title{
+  display: flex;
   line-height: 96px;
   font-size: 102px;
-  font-style: 600;
+  font-weight: 600;
   width: 730px;
   margin-left: 64px;
 }
@@ -43,7 +36,7 @@
   bottom: 0;
   line-height: 25px;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
   margin-left: 64px;
   margin-bottom: 30px;
   width: 388px;
@@ -93,34 +86,22 @@
   margin-right: 50px;
   font-size: 18px;
   line-height: 1.2;
-  font-style: normal;
+  font-weight: normal;
 }
 
 .main-text{
   min-width: 784px;
 }
 
-.m30{
-  margin: 0px;
-  margin-top: 30px;
-  font-size: 24px;
-  font-style: 600;
-  line-height: 34px;
-}
-
-.mt30{
-  margin: 0;
-  margin-top: 30px;
-}
-
 .span-accent{
   font-weight: 600;
 }
 
-.text__1{
+.two-columns__paragraph{
   margin: 0;
   font-size: 24px;
-  font-style: normal;
+  margin-top: 30px;
+  font-weight: normal;
   line-height: 34px;
 }
 
@@ -136,7 +117,7 @@
   min-width: 60%;
   line-height: 1.15;
   font-size: 60px;
-  font-style: 600;
+  font-weight: 600;
 }
 
 .section-subtitle{
@@ -146,7 +127,7 @@
   min-width: 60%;
   line-height: 34px;
   font-size: 24px;
-  font-style: normal;
+  font-weight: normal;
 }
 
 .table{
@@ -171,7 +152,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 24px;
-  font-style: 600;
+  font-weight: 600;
 }
 
 .table__text{
@@ -179,7 +160,7 @@
   margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
 }
 
 /*feynman*/
@@ -187,6 +168,10 @@
 .feynman{
   height: 890px;
   position: relative;
+}
+
+.theme__dark{
+  color: #f2f2f2;
 }
 
 .feynman__img{
@@ -204,7 +189,7 @@
 
   line-height: 1.15;
   font-size: 120px;
-  font-style: 600;
+  font-weight: 600;
 }
 
 .feynman__subtitle{
@@ -214,7 +199,7 @@
 
   line-height: 51px;
   font-size: 36px;
-  font-style: normal;
+  font-weight: normal;
 }
 
 .feynman__link{
@@ -226,7 +211,7 @@
 
   line-height: 51px;
   font-size: 36px;
-  font-style: normal;
+  font-weight: normal;
 }
 
 /*kaufman*/
@@ -297,7 +282,7 @@
   color: #f2f2f2;
   line-height: 25px;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
 }
 
 .footer__logo{
@@ -311,7 +296,7 @@
   padding: 0;
   line-height: 30px;
   font-size: 18px;
-  font-style: 600;
+  font-weight: 600;
 }
 
 .footer__column-link{
@@ -319,7 +304,8 @@
   color: #f2f2f2;
   line-height: 30px;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 .m20-16{
