@@ -1,3 +1,3 @@
 by Germanov Alexey
 
-Fixid all bugs
+header__square-pic исправить вылезание квадратика
