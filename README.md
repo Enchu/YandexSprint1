@@ -1,3 +1,3 @@
 by Germanov Alexey
 
-header__square-pic исправить вылезание квадратика
+footer прижать автора к низу
