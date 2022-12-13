@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+*,li{
+  list-style: none;
+}
 
 .theme__dark{
   color: #f2f2f2;
@@ -126,6 +129,7 @@
 
 .digits{
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .section-title{
@@ -179,21 +183,18 @@
 /*feynman*/
 
 .feynman{
+  z-index: 1;
   padding-top: 100px;
   height: 890px;
   position: relative;
   background-color: #f2f2f2;
-  /*background: url(/images/feynman.png) no-repeat bottom left #f2f2f2;
-  background-size: 23em 17em;
-  font-size: 36px;*/
-
 }
 
 .feynman__title{
-  margin: 0;
+  margin: auto;
   padding: 0;
   text-align: center;
-  min-width: 648px;
+  max-width: 648px;
 
   line-height: 1.15;
   font-size: 120px;
@@ -201,6 +202,8 @@
 }
 
 .feynman__subtitle{
+  z-index: 1;
+  position: relative;
   text-align: center;
   margin-top: 70px;
 
@@ -225,9 +228,6 @@
   position: absolute;
   bottom: 0;
   left: 0;
-
-  background: url(/images/feynman.png) no-repeat;
-
   width: 867px;
   height: 637px;
 }
@@ -264,14 +264,11 @@
 }
 
 .table_theme_dark{
-  padding: 0;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 0.5em;
   font-size: 24px;
   align-content: space-between;
-  position: relative;
   z-index: 1;
 }
 
@@ -287,13 +284,16 @@
   position: relative;
   box-sizing: border-box;
   color: white;
+  display: flex;
 }
 
 .footer__colums{
   width: 90%;
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer__author{
@@ -303,6 +303,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+
 }
 
 .footer__logo{
@@ -314,6 +315,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
+
 }
 
 .footer__column-link{
@@ -322,6 +324,7 @@
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
+  color: white;
 }
 
 .footer__column-link:hover{
@@ -339,14 +342,13 @@
   flex-basis: 711px;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer__social-icon{
   margin-right: 10px;
   width: 16px;
   height: 16px;
-}
-
-.footer__li{
-  list-style: none;
 }
